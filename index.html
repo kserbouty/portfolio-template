@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio Template</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Portfolio template." />
+        <link rel="stylesheet" href="dist/css/all.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@100&family=Roboto:wght@300&display=swap" />
+    </head>
+    <body>
+        <nav>
+            <a class="logo" href="#" ></a>
+            <ul class="nav-menu">
+                <li class="nav-active">
+                    <a id="nav_home" class="nav-link text" href="#home"></a>
+                </li>
+                <li>
+                    <a id="nav_skills" class="nav-link text" href="#skills"></a>
+                </li>
+                <li>
+                    <a id="nav_projects" class="nav-link text" href="#projects"></a>
+                </li>
+            </ul>
+            <ul id="nav-flag" class="nav-flag">
+                <li id="nav_flag_en">
+                    <div>
+                        <img src="dist/assets/images/flag-en.png" alt="English flag"/>
+                    </div>
+                </li>
+                <li id="nav_flag_fr">
+                    <div>
+                        <img src="dist/assets/images/flag-fr.png" alt="French flag"/>
+                    </div>
+                </li>
+            </ul>
+            <ul id="dropdown" class="dropdown">
+                <li class="dropdown-menu" >
+                    <div id="drop_flag_en">
+                        <img src="dist/assets/images/flag-en.png" alt="English flag"/>
+                    </div>
+                    <div id="drop_flag_fr">
+                        <img src="dist/assets/images/flag-fr.png" alt="French flag"/>
+                    </div>
+                    <a id="drop-open" onclick="displayMenu()">
+                        <i class="fa-solid fa-bars fa-2x" aria-hidden=true></i>
+                    </a>
+                    <a id="drop-close" onclick="hideMenu()">
+                        <i class="fa-solid fa-x fa-2x" aria-hidden=true></i>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="hideMenu()" class="dropdown-link" href="#home">
+                        <p id="drop_home" class="text"></p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="hideMenu()" class="dropdown-link" href="#skills">
+                        <p id="drop_projects" class="text"></p>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="hideMenu()" class="dropdown-link" href="#projects">
+                        <p id="drop_skills" class="text"></p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <header id="home">
+            <h1></h1>
+            <p id="head_subtitle" class="subtitle"></p>
+            <a class="button-media fab fa-linkedin-in fa-2x" href="" target="_blank"></a>
+            <a class="button-media fab fa-github fa-2x" href="" target="_blank"></a>
+            <p class="email text"></p>
+            <a class="button" href="" target="_blank">
+                <span class="button-icon">
+                    <i class="fa-solid fa-download" aria-hidden=true></i>
+                </span>
+                <strong id="head_resume" class="button-text"></strong>
+            </a>
+        </header>
+        <div class="divider-header"></div>
+        <main>
+            <section id="skills" class="skills">
+                <h2 id="skills_title"></h2>
+                <hr />
+                <div class="skills-content">
+                    <i class="skill-css fab fa-css3-alt fa-4x" aria-hidden=true></i>
+                    <i class="skill-vue fab fa-vuejs fa-4x" aria-hidden=true></i>
+                </div>
+                <div class="skills-content">
+                    <i class="fab fa-symfony fa-6x" aria-hidden=true></i>
+                    <i class="fab fa-php fa-6x" aria-hidden=true></i>
+                    <i class="fab fa-laravel fa-6x" aria-hidden=true></i>
+                </div>
+                <div class="skills-content">
+                    <i class="skill-bootstrap fab fa-bootstrap fa-4x" aria-hidden=true></i>
+                    <i class="skill-js fab fa-js fa-4x" aria-hidden=true></i>
+                </div>
+            </section>
+            <div class="divider-skills"></div>
+            <div class="divider-projects"></div>
+            <section id="projects" class="projects">
+                <h2 id="projects_title"></h2>
+                <hr />
+                <div class="projects-cards">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">
+                                <h3 id="p_title"></h3>
+                            </div>
+                            <div class="project-info wip">
+                                <p id="p_info" class="text"></p>
+                            </div>
+                            <div class="project-techno">
+                                <i class="fa-brands fa-laravel fa-3x" aria-hidden=true></i>
+                                <i class="fab fa-vuejs fa-3x" aria-hidden=true></i>
+                            </div>
+                            <div class="project-git">
+                                <span>
+                                    <button class="button project-button">
+                                        <a href="" target="_blank">
+                                            <span class="button-icon">
+                                                <i class="fab fa-github" aria-hidden=true></i>
+                                            </span>
+                                            <strong class="button-text"></strong>
+                                        </a>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">
+                                <h3>Project2</h3>
+                            </div>
+                            <div class="project-info">
+                                <p id="p2_info" class="text"></p>
+                            </div>
+                            <div class="project-techno">
+                                <i class="fab fa-php fa-3x" aria-hidden=true></i>
+                                <i class="fab fa-bootstrap fa-3x" aria-hidden=true></i>
+                            </div>
+                            <div class="project-git">
+                                <span>
+                                    <button class="button project-button">
+                                        <a href="" target="_blank">
+                                            <span class="button-icon">
+                                                <i class="fab fa-github" aria-hidden=true></i>
+                                            </span>
+                                            <strong class="button-text"></strong>
+                                        </a>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">
+                                <h3>Project3</h3>
+                            </div>
+                            <div class="project-info">
+                                <p id="p3_info" class="text"></p>
+                            </div>
+                            <div class="project-techno">
+                                <div>
+                                    <i class="fab fa-symfony fa-3x" aria-hidden=true></i>
+                                    <i class="fab fa-bootstrap fa-3x" aria-hidden=true></i>
+                                    <i class="fab fa-vuejs fa-3x" aria-hidden=true></i>
+                                </div>
+                            </div>
+                            <div class="project-git">
+                                <span>
+                                    <button class="button project-button">
+                                        <a href="" target="_blank">
+                                            <span class="button-icon">
+                                                <i class="fab fa-github" aria-hidden=true></i>
+                                            </span>
+                                            <strong id="p4_button" class="button-text"></strong>
+                                        </a>
+                                    </button>
+                                    <button class="button project-button">
+                                        <a href="" target="_blank">
+                                            <span class="button-icon">
+                                                <i class="fab fa-github" aria-hidden=true></i>
+                                            </span>
+                                            <strong id="p4_button2" class="button-text"></strong>
+                                        </a>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">
+                                <h3>Project4</h3>
+                            </div>
+                            <div class="project-info">
+                                <p id="p5_info" class="text"></p>
+                            </div>
+                            <div class="project-techno">
+                                <div>
+                                    <i class="fab fa-css3-alt fa-3x" aria-hidden=true></i>
+                                    <i class="fab fa-js fa-3x" aria-hidden=true></i>
+                                    <i class="fa-brands fa-gulp fa-3x" aria-hidden=true></i>
+                                </div>
+                            </div>
+                            <div class="project-git">
+                                <span>
+                                    <button class="button project-button">
+                                        <a href="" target="_blank">
+                                            <span class="button-icon">
+                                                <i class="fab fa-github" aria-hidden=true></i>
+                                            </span>
+                                            <strong class="button-text"></strong>
+                                        </a>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">
+                                <h3>Project5</h3>
+                            </div>
+                            <div class="project-info">
+                                <p id="p6_info" class="text"></p>
+                            </div>
+                            <div class="project-techno">
+                                <div>
+                                    <i class="fab fa-php fa-3x" aria-hidden=true></i>
+                                    <i class="fab fa-bootstrap fa-3x" aria-hidden=true></i>
+                                </div>
+                            </div>
+                            <div class="project-git">
+                                <span>
+                                    <button class="button project-button">
+                                        <a href="" target="_blank">
+                                            <span class="button-icon">
+                                                <i class="fab fa-github" aria-hidden=true></i>
+                                            </span>
+                                            <strong id="p6_button" class="button-text"></strong>
+                                        </a>
+                                    </button>
+                                    <button class="button project-button">
+                                        <a href="" target="_blank">
+                                            <span class="button-icon">
+                                                <i class="fab fa-github" aria-hidden=true></i>
+                                            </span>
+                                            <strong class="button-text"></strong>
+                                        </a>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <a class="button-media fab fa-linkedin-in fa-2x" href="" target="blank"></a>
+            <a class="button-media fab fa-github fa-2x" href="" target="blank"></a>
+            <p class="email text"></p>
+            <div>
+                <a href="#" class="button-return fa-solid fa-arrow-up"></a>
+            </div>
+            <p class="copyright">&#9400;</p>
+        </footer>
+        <script src="dist/js/all.js"></script>
+        <noscript>
+            <h4 id="error">This website requires JavaScript.</h4>
+        </noscript>
+    </body>
+</html>

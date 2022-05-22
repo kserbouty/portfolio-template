@@ -1,0 +1,167 @@
+html {
+    font-size: 1em;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #24243f;
+}
+
+header {
+    padding-bottom: 6em;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #24243f;
+}
+
+h1 {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.subtitle {
+    margin-top: 0.5em;
+    padding-bottom: 2.7em;
+    font-size: 2.4em;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 1px;
+}
+
+.email {
+    margin-bottom: 2em;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 5px;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    margin: 2em 2em;
+}
+
+hr {
+    height: 2px;
+    width: 60vw;
+    margin-bottom: 6em;
+    border: 0;
+    background-image: linear-gradient(to right, #46467a, #a2c1c1, #46467a);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 0.2em;
+}
+
+.button {
+    padding: 0.2em 0;
+    display: inline-block;
+    background-color: #a2c1c1;
+    border: 3px solid #ffffff;
+    color: #24243f;
+    font-size: 1.4em;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #d7e4e4;
+    border: 3px solid #a2c1c1;
+}
+
+.button-icon {
+    color: #24243f;
+    padding-left: 0.4em;
+}
+
+.button-media {
+    display: inline-block;
+    padding: 0.4em;
+    width: 1em;
+    height: 1em;
+    background-color: #a2c1c1;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+}
+
+.button-media:hover {
+    background-color: #d7e4e4;
+    border: 3px solid #a2c1c1;
+}
+
+.button-text {
+    color: #24243f;
+    padding-right: 0.6em;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+}
+
+.button-return {
+    font-size: 2em;
+    padding: 0.3em;
+    width: 1em;
+    height: 1em;
+    background-color: #a2c1c1;
+    color: #24243f;
+    border-radius: 50%;
+}
+
+.divider-header {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #24243f;
+    border-left: 100vw solid #46467a;
+}
+
+.divider-skills {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #46467a;
+    border-right: 100vw solid #24243f;
+}
+
+.divider-projects {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #24243f;
+    border-right: 100vw solid #46467a;
+}
+
+.text {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+}
+
+.copyright {
+    margin-top: 3em;
+    color: #5f8484;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+}
+
+footer {
+    padding: 5em 0 1em 0;
+    background-color: #24243f;
+    text-align: center;
+}

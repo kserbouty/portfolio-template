@@ -1,0 +1,25 @@
+.fab,
+.fa-brands {
+    color: #ffffff;
+}
+
+.fa-github,
+.fa-github:hover,
+.fa-linkedin-in,
+.fa-linkedin-in:hover {
+    color: #24243f;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 107%;
+    list-style-type: none;
+    border-bottom: 3px solid #24243f;
+}
+
+.logo img {
+    height: 38px;
+    width: 38px;
+}

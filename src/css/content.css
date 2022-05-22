@@ -1,0 +1,85 @@
+.skills {
+    padding: 7em 0 9em 0;
+    background-color: #46467a;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    padding: 7em 0 10em 0;
+    background-color: #46467a;
+}
+
+.projects h2 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.projects-cards {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project-card {
+    display: flex;
+    justify-content: center;
+    margin: 4em;
+    padding: 0.3em;
+    background-color: #24243f;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px #24243f;
+}
+
+.project-content {
+    height: 100%;
+    width: 100%;
+}
+
+.project-title {
+    height: 10%;
+}
+
+.project-title h3 {
+    color: #d7e4e4;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-info {
+    padding: 0 2em;
+    height: 35%;
+    line-height: 150%;
+}
+
+.project-techno {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-git {
+    height: 15%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-version {
+    height: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
