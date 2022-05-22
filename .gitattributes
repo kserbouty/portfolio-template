@@ -6,6 +6,7 @@
 *.js            text eol=lf
 *.json          text eol=lf
 *.md            text eol=lf
+*.lock          text eol=lf
 # Git
 .gitattributes  text eol=lf
 .gitignore      text eol=lf
