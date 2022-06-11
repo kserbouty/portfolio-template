@@ -1,4 +1,3 @@
-
 # Portfolio Template
 
 Old portfolio kept as template.

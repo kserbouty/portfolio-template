@@ -1,23 +1,17 @@
 {
   "name": "portfolio-template",
-  "version": "0.5.0-alpha",
+  "version": "0.5.0",
   "type": "module",
-  "description": "Old portfolio kept as template . Not maintained anymore.",
-  "keywords": [
-    "portfolio",
-    "template",
-    "html",
-    "css",
-    "js"
-  ],
-  "homepage": "https://gitlab.com/k.serbouty/portfolio-template",
+  "description": "Old portfolio kept as template.",
+  "keywords": [ "portfolio", "template"],
+  "homepage": "https://github.com/kserbouty/portfolio-template",
   "bugs": {
-    "url": "https://gitlab.com/k.serbouty/portfolio-template/-/issues",
+    "url": "https://github.com/kserbouty/portfolio-template/issues",
     "email": "serbouty.dev@protonmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/k.serbouty/portfolio-template.git"
+    "url": "https://github.com/kserbouty/portfolio-template.git"
   },
   "author": "Karim Serbouty",
   "license": "MIT",
